@@ -1,0 +1,51 @@
+ .navbar-item{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  } 
+
+  .plane-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+* {
+/* box-sizing: border-box; */
+}
+
+.zoom {
+padding: 5px;
+/* background-color: green; */
+transition: transform .2s;
+width: 300px;
+height: 300px;
+margin: 0 auto;
+}
+
+.zoom:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5); 
+}
+
+.zoom_img{
+  width: 300px; height: 300px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.zoom_img:hover{
+  width: 400px; height: 400px;
+  /* transform: scale(2, 2) */
+}
